@@ -1,0 +1,287 @@
+#nav{
+    position: fixed;
+}
+#section1{
+  background-color:#262626;
+  height: 850px;
+}
+#proPic{
+    border: whitesmoke;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50%;
+    box-shadow: 2px 4px rgba(245, 245, 245, 0.295);
+}
+.nameHeader{
+    font-family: 'Kosugi Maru', sans-serif;
+    text-shadow: 3.5px 3.5px rgba(128, 128, 128, 0.432);
+    font-size: 55px;
+   color: white;
+   font-weight: bold;
+   margin-top: 130px;
+   text-align: center;
+   
+}
+#nameName{
+    font-family: 'Kosugi Maru', sans-serif;
+    text-shadow: 3.5px 3.5px  rgba(0, 0, 0, 0.596);
+    font-size: 55px;
+   color: rgba(219, 41, 41);
+   font-weight: bold;
+   margin-top: 70px;
+   text-align: center;
+   height: 200px;
+}
+
+/* --------------About Button --------------------------*/
+.card-img{
+    height: 50px;
+    width: 50px;
+    background-color:whitesmoke;
+    border-radius: 5px;
+    box-shadow: 2px 2px;
+    box-shadow:2px 2px white;
+}
+.card-img:hover{
+    background-color: rgb(26, 223, 223);
+
+}
+
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+	
+	padding: 10px 40px;
+    margin: 0px 10px 10px 0px;
+	border-radius: 10px;
+	font-family: 'Kosugi Maru', sans-serif;
+	font-size: 25px;
+	color: #FFF;
+	text-decoration: none;	
+}
+.green
+{
+	background-color: #82BF56;
+	border-bottom: 5px solid #669644;
+	text-shadow: 0px -2px #669644;
+}
+/* -------------------------------------------------------*/
+
+
+/* =====================Section 2============================ */
+#section2{background-color: #7E8287;
+    height: 900px;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+#headRow{
+    text-align: center;
+}
+.aboutHeader{
+    font-family: 'Kosugi Maru', sans-serif;
+    text-shadow: 3.5px 3.5px  rgba(0, 0, 0, 0.596);
+    font-size: 55px;
+   color: rgba(255, 255, 255, 0.913);
+   font-weight: bold;
+   margin-top: 100px;
+   text-align: center;
+   /* margin-left:100px; */
+
+}
+#aboutAbout{
+    font-family: 'Kosugi Maru', sans-serif;
+    text-shadow: 3.5px 3.5px rgba(0, 0, 0, 0.704);
+    font-size: 55px;
+   color: rgba(235, 74, 74, 0.904);
+   font-weight: bold;
+   
+
+   
+}
+
+/* ==============Skill Images=========== */
+.skillImg{
+    height: 50px;
+    width: 50px;
+}
+/* -----------Skills Box Graph-------------- */
+
+
+#center{
+    margin-top:75px;
+    padding: 20px;
+    /* background: #333; */
+    /* box-sizing: border-box; */
+    /* box-shadow: 0 30px 50px rgb(0,0,0,.5); */
+    border-radius: 10px;
+    
+}
+h1{
+    margin:0;
+    padding: 0;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.skillBox{
+    box-sizing: border-box;
+    width: 100%;
+    margin: 20px 0;
+}
+.skillBox p
+{
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    padding: 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.skillBox p:nth-child(2)
+{
+    float:right;
+    position: relative;
+    top: -25px;
+}
+.skill
+{
+    background: #262626;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid #0fffb7;
+    border-radius: 2px;
+}
+.skill_level
+{
+    background: #0f47ff;
+    width: 100%;
+    height: 10px;
+}
+/* +++=+++==+++++= Summary about Me=================== */
+.summaryBox{
+    margin-top:75px;
+    /* right: -100%; */
+    padding: 20px;
+    /* background: #333;
+    box-sizing: border-box;
+    box-shadow: 0 30px 50px rgb(0,0,0,.5);
+    border-radius: 10px; */
+}
+.summaryBox h3{
+    color: #fff;
+}
+.summaryBox p{
+    color: #fff;
+    margin: 0 0 10px;
+    padding: 0;
+    letter-spacing: 1px;
+}
+/* ---------------------------------------------------------------------------- */
+#fontAwesome{
+    font-size: 70px;
+    
+}
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------Section 3 --------------------------------------*/
+#section3{
+    background-color:#9DA39A;
+    height: 1200px;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+
+.hovereffect {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    margin-bottom: 15px;
+  }
+  
+  .hovereffect .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    background-color: rgba(0,0,0,0.5);
+    -webkit-transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+    transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+  }
+  
+  .hovereffect img {
+    display: block;
+    position: relative;
+    -webkit-transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+    transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+  }
+  
+  .hovereffect h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    background: rgba(0,0,0,0.6);
+    -webkit-transform: translatey(-100px);
+    -ms-transform: translatey(-100px);
+    transform: translatey(-100px);
+    -webkit-transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+    transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+    padding: 10px;
+  }
+  
+  .hovereffect a.info {
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    margin: 50px 0 0;
+    padding: 7px 14px;
+  }
+  
+  .hovereffect a.info:hover {
+    box-shadow: 0 0 5px #fff;
+  }
+  
+  .hovereffect:hover img {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  
+  .hovereffect:hover .overlay {
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+  
+  .hovereffect:hover h2,.hovereffect:hover a.info {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -ms-transform: translatey(0);
+    -webkit-transform: translatey(0);
+    transform: translatey(0);
+  }
+  
+  .hovereffect:hover a.info {
+    -webkit-transition-delay: .2s;
+    transition-delay: .2s;
+  }
+  .img-responsive{
+      height: 300px;
+      width: 300px;
+  }
