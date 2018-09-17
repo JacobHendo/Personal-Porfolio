@@ -189,18 +189,21 @@ h1{
 /* ---------------------------Section 3 --------------------------------------*/
 #section3{
     background-color:#9DA39A;
-    height: 1200px;
+    height: 1400px;
     font-family: 'Kosugi Maru', sans-serif;
 }
 
 .hovereffect {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 350px;
     overflow: hidden;
     position: relative;
     text-align: center;
     cursor: default;
     margin-bottom: 15px;
+    border: #7E8287;
+    border-style: ridge;
+    
   }
   
   .hovereffect .overlay {
@@ -282,6 +285,25 @@ h1{
     transition-delay: .2s;
   }
   .img-responsive{
-      height: 300px;
-      width: 300px;
+      height: 350px;
+      width: 400px;
   }
+  /* -------SECTION 3-------------- */
+  #section4{
+    background-color:#262626;
+    height: 850px;
+  }
+
+  #contactText{
+    font-family: 'Kosugi Maru', sans-serif;
+    text-shadow: 3.5px 3.5px rgba(128, 128, 128, 0.194);
+   color: white;
+   font-weight: bold;
+   margin-top: 50px;
+   text-align: center;
+  }
+  .imputForm{
+      margin-bottom: 7px;
+  }
+
+  
